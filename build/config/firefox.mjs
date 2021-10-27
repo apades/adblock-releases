@@ -22,4 +22,4 @@ export default {
       info$: 'info.gecko.js.tmpl',
     },
   },
-};
+}

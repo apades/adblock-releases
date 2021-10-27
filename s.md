@@ -50,3 +50,12 @@
 
 # 涉及广告的filter list
 https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt?addonName=adblockchrome&addonVersion=4.38.0&application=chrome&applicationVersion=95.0.4638.54&platform=chromium&platformVersion=95.0.4638.54&lastVersion=0&downloadCount=0&disabled=false&firstVersion=20211020
+
+# filterEngine流程
+![](./s.img/流程.png)
+
+1. adblock-betafish\alias\subscriptionInit.js
+2. adblockplusui\adblockpluschrome\adblockpluscore\lib\filterEngine.js
+3. adblock-betafish\alias\filterListener.js
+4. filterEngine.add()
+5. 在requestBlocker开始调用matcher.js

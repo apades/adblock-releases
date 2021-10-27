@@ -9,4 +9,5 @@ module.exports = {
     browser: true,
     ...config.globals,
   },
+  ignorePatterns: ['dist', 'lib', '*.md'],
 }
